@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "The Tab Renamer",
+  "version": "1.0",
+  "description": "Renames tabs based on website content",
+  "permissions": ["activeTab", "https://api.cohere.ai/"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
