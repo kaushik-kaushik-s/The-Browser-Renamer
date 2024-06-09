@@ -21,7 +21,7 @@ async function generateTabName(content) {
 }
 
 async function fetchFromCohere(content) {
-    const apiKey = 'YOUR_COHERE_API_KEY';
+    const apiKey = 'xeuNfvPPpXN5SxFPkzaf1ThcTxgiKpMz5sUzQjrV';
     const apiUrl = 'https://api.cohere.ai/generate';
 
     const requestBody = {
@@ -57,7 +57,7 @@ async function isTabNameSimple(tabName) {
 }
 
 async function fetchFromCohere2(tabName) {
-    const apiKey = 'YOUR_COHERE_API_KEY';
+    const apiKey = 'xeuNfvPPpXN5SxFPkzaf1ThcTxgiKpMz5sUzQjrV';
     const apiUrl = 'https://api.cohere.ai/generate';
 
     const requestBody = {
